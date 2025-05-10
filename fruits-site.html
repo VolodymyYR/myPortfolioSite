@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<style data-fls-preloader="false" rel="preload">
+			body > *:not(.fls-preloader) {opacity: 0;visibility: hidden;}[data-fls-preloader-loaded] body > *:not(.fls-preloader) {transition: opacity 0.5s ease 0s;opacity: 1;visibility: visible;}
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1746852686330"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1746852686330">
+		<link rel="stylesheet" crossorigin="" href="./css/info.min.css?v=1746852686330">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__content">
+					<a href="index.html" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="Image">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"></li>
+								<li class="menu__item">
+									<a href="index.html" class="menu__link Global">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="home.html" data-fls-scrollto=".intro" class="menu__link">Intro</a>
+								</li>
+								<li class="menu__item">
+									<a href="home.html" data-fls-scrollto=".about-me" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="home.html" data-fls-scrollto=".projects" class="menu__link">Projects</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.js?v=1746852686330on">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+				</div>
+			</header>
+			<main class="info-site">
+				<section class="info-site__intro intro">
+					<div class="intro__container">
+						<div class="intro__header header-intro">
+							<a href="https://volodymyyr.github.io/My-projects/Fruits-Site/index.html" target="_blank">
+								<h1 class="header-intro__title">Fruits</h1>
+							</a>
+						</div>
+						<div class="intro__body">
+							<div class="intro__video">
+								<div class="intro__video-body">
+									<a href="index.html" class="intro__video-link">
+										<video autoplay muted loop>
+											<source src="./assets/img/sites/Fruits/video_section_1.mp4" type="video/mp4">
+										</video>
+									</a>
+									<i></i>
+								</div>
+							</div>
+							<div class="intro__description description-intro">
+								<h2 class="description-intro__title"></h2>
+								<div class="description-intro__text">
+									<p>
+										This static one-page website was created to practice smooth section navigation techniques. The core functionality is built with vanilla JavaScript and implements a page scrolling mechanism to corresponding content blocks when clicking menu items.
+									</p>
+									<p>
+										The layout uses semantic HTML5 with a clear section structure containing information about different fruit varieties. Styling was implemented with CSS3, focusing on mastering basic element positioning principles. While not responsive, the project demonstrates organized code structure - styles are written logically with understandable selectors.
+									</p>
+									<p>
+										The key feature is smooth scrolling implementation using the scrollIntoView() method with behavior: 'smooth' parameter. This creates pleasant navigation experience without additional libraries. JavaScript code is structured as separate functions handling click events and managing the scrolling process.
+									</p>
+									<p>
+										This project served as an educational platform for mastering DOM manipulation, event handling, and basic scroll animations. It demonstrates understanding of JavaScript interaction with HTML document structure. While design and responsiveness weren't priorities, focus was placed on code cleanliness and precise execution of the core functionality - smooth transitions between page sections.
+									</p>
+									<p>
+										The work showcases ability to use native JavaScript for solving specific UX challenges and demonstrates foundational layout skills and code organization.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>
